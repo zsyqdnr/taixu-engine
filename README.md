@@ -1,89 +1,58 @@
-# taixu-engine
-Closed research API for SLC‑C EEG metric, meditation & altered‑state research
+# Taixu‑Engine
+## Closed Research API for SLC-C EEG Metrics, Meditation & Altered-State Research
+> Neural branch of the **Anchoring Framework**, for EEG limit-cycle crystallization analysis.
 
-# Taixu‑Engine API
-> Spatiotemporal Limit‑Cycle Crystallinity (**SLC‑C**) — Model‑free EEG scalar metric for meditation & altered‑states‑of‑consciousness research
+🔗 Principal Investigator: [Qiao Ou](https://github.com/Zsyqdnr)
+🪐 Foundation: [Anchoring Framework](https://github.com/Zsyqdnr)
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24377579.svg)](https://doi.org/10.5281/zenodo.24377579)
+---
 
-## Overview
-Taixu‑Engine provides a closed‑research API for computing **SLC‑C (Spatiotemporal Limit‑Cycle Crystallinity)**, a composite EEG metric built from the Sync × Coverage two‑dimensional signature.
+## Core Metrics
+All metrics are derived from the three fundamental variables of the Anchoring Framework:
+**S (Survival Factor), Gₐₙcₕₒᵣ (Anchoring Stiffness), R (Resonance Overlap)**
 
-SLC‑C quantifies whole‑brain spatiotemporal dynamical integration from BDF EEG recordings. It distinguishes **local high synchrony** from genuine **whole‑brain functional coordination**, and outputs continuous scalar values.
-A falsifiable hypothesis is proposed in the preprint: extreme SLC‑C values may serve as neurophysiological proxies for flow‑state and deep meditative altered states of consciousness.
+1. **SLC-C**: Neural Limit-Cycle Crystallization degree
+2. **Sync**: Inter-channel phase synchronization
+3. **Coverage**: Spatial feature distribution percentile (reference cohort)
 
-> ⚠️ **Important note**: This is an exploratory research‑only tool.
->‑ It is NOT a medical device, no medical certification in any jurisdiction.
->‑ Not for clinical diagnosis, disease screening or therapeutic decision‑making.
->‑ Results are signal statistics of your recording, not clinical measurements.
+Full demonstrative PDF reports (radar charts, percentile histograms, qualitative signal readings) are only shared under formal research collaboration arrangements. They are not available for ad-hoc single-file screening requests.
 
-Preprint: https://doi.org/10.5281/zenodo.24377579
+---
 
-## Intellectual‑property statement
-The preprint publishes theoretical framework and qualitative descriptions only.
-Exact mathematical formulations, internal parameters and the anchor‑score algorithm are **proprietary commercial assets**. No source code is released.
-Only top‑level scalar outputs and percentile‑based demonstrative profiles are made available for research use.
+## Service Tiers
+### Tier 1 — Academic Screening (Free, Exploratory)
+For researchers who want rapid preliminary checks on existing BDF datasets.
+- Deliverables: Only three scalar metrics (SLC-C, Sync, Coverage). No PDF report.
+- Limits: Small test file quota per research group.
+- Expectation: If you publish using these outputs, cite the Zenodo preprint. Quota details available via email inquiry.
 
-## Input requirements
-‑ Input format: BDF / BDF+ (BioSemi standard format)
-‑ Minimum recording length: > 6 minutes
-‑ Recommended: 64‑channel high‑density EEG recordings; results degrade with fewer channels or noisy recordings.
-‑ Poor electrode contact, motion artifacts and line‑noise will bias metric outputs.
+### Tier 2 — Formal Research Collaboration (Free / Negotiated)
+Eligibility: You intend to publish peer-reviewed work or preprints and agree to cite the Zenodo preprint. Co-authorship may be discussed based on contribution scope.
+- Deliverables: Scalar metrics + full de-identified demonstrative PDF report for your dataset.
+- Experimental design consultation for meditation / altered-state EEG paradigms is also available.
+- Terms and quota limits are available by email.
 
-## What you receive from the API
-Three primary scalar return values (always available for research screening):
-1. `SLC‑C`: Spatiotemporal Limit‑Cycle Crystallinity scalar
-2. `Sync`: Cross‑channel spatial synchrony percentile (reference‑cohort)
-3. `Coverage`: Spatial feature‑spread percentile (reference‑cohort)
+### Tier 3 — Commercial / Batch Processing (Paid Service)
+For companies, hardware vendors, or large proprietary projects without academic publication goals.
+- Contact for pricing and volume-based terms.
 
-> Full demonstrative PDF reports (containing radar‑plot, percentile bar‑chart and qualitative signal reading) are **only shared under formal research collaboration arrangements**, not for ad‑hoc single‑file screening requests.
-
-## Usage tiers
-### Tier 1 — Academic screening (free, exploratory)
-For researchers wanting a quick feasibility check on their existing BDF datasets.
-‑ Deliverables: Only three scalar numbers (`SLC‑C`, `Sync`, `Coverage`). No PDF report.
-‑ Limits: small volume of test files per research group.
-‑ Expectation: please cite the preprint in any resulting manuscripts or preprints if you use these scalar outputs.
-Specific quota can be inquired via email.
-
-### Tier 2 — Formal research collaboration (free / negotiated)
-Eligibility: you intend to produce peer‑reviewed work or preprint, and agree to cite the Zenodo preprint. Joint authorship may be discussed depending on contribution scope.
-‑ Deliverables: scalar metrics + full de‑identified demonstrative PDF reports for your dataset.
-‑ We may also discuss experimental design for meditation / altered‑state EEG paradigms.
-Detailed terms and quota limits can be inquired via email.
-
-### Tier 3 — Commercial / large‑batch processing (paid service)
-For companies, hardware vendors or large‑scale proprietary projects without academic publication goals.
-‑ Contact for pricing, volume‑based terms.
+---
 
 ## Citation
-If you use SLC‑C metrics in your work, please cite the preprint:
-
-**APA‑7 format**
-> Ou, Q. (2026). Spatiotemporal Limit‑Cycle Crystallinity (SLC‑C): A complex‑systems scalar for whole‑brain dynamical integration during meditative and flow states (v1.1) [Preprint]. Zenodo. https://doi.org/10.5281/zenodo.24377579
-
-**BibTeX**
+If you use the SLC-C metric in your work, please cite the Anchoring Framework preprint:
 ```bibtex
-@misc{ou2026slcc,
-  title={Spatiotemporal Limit‑Cycle Crystallinity (SLC‑C): A complex‑systems scalar for whole‑brain dynamical integration during meditative and flow states},
+@article{ou2024anchoring,
+  title={Anchoring Framework: A Zero-Dark-Matter Explanation for Galaxy Rotation Curves},
   author={Ou, Qiao},
-  year={2026},
-  version={1.1},
-  publisher={Zenodo},
-  doi={10.5281/zenodo.24377579},
-  url={https://doi.org/10.5281/zenodo.24377579}
+  journal={Zenodo},
+  year={2024},
+  doi={10.5281/zenodo.22714393}
 }
-## Contact
 
-Qiao Ou (ORCID: 0009‑0008‑4540‑1381)
-Email: qiao.ou@outlook.com
+## Disclaimer
 
-When writing, briefly describe:
-‑ your research topic / paradigm
-‑ number of BDF files you plan to submit
-‑ which usage‑tier you are requesting
+This research API is for academic research only.
+It is NOT medical diagnostic software and cannot be used for clinical diagnosis.
 
-## Repository note
-
-This repository contains documentation only. No source code, no algorithm implementation.
-All signal computation runs on closed‑backend API service.
+📫 Contact: 505808957@qq.com
+Please include EEG sampling rate, channel layout and your research objectives in your email.
