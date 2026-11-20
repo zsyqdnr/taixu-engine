@@ -54,5 +54,5 @@ If you use the SLC-C metric in your work, please cite the Anchoring Framework pr
 This research API is for academic research only.
 It is NOT medical diagnostic software and cannot be used for clinical diagnosis.
 
-📫 Contact: 505808957@qq.com
+📫 Contact: qiao.ou@outlook.com
 Please include EEG sampling rate, channel layout and your research objectives in your email.
