@@ -48,7 +48,6 @@ If you use the SLC-C metric, Sync or Coverage in your EEG work, please cite the 
   year={2026},
   doi={10.5281/zenodo.23984773}
 }
-
 If you need to reference the original galactic anchoring formulation:
 @article{ou2024anchoring,
   title={Anchoring Framework: A Zero-Dark-Matter Explanation for Galaxy Rotation Curves},
@@ -57,11 +56,3 @@ If you need to reference the original galactic anchoring formulation:
   year={2024},
   doi={10.5281/zenodo.22714393}
 }
-
-## Disclaimer
-
-This research API is for academic research only.
-It is NOT medical diagnostic software and cannot be used for clinical diagnosis.
-
-📫 Contact: qiao.ou@outlook.com
-Please include EEG sampling rate, channel layout and your research objectives in your email.
