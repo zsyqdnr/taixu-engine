@@ -39,8 +39,17 @@ For companies, hardware vendors, or large proprietary projects without academic 
 ---
 
 ## Citation
-If you use the SLC-C metric in your work, please cite the Anchoring Framework preprint:
+If you use the SLC-C metric, Sync or Coverage in your EEG work, please cite the cross-scale unified validation preprint:
 ```bibtex
+@article{ou2026taixu,
+  title={The Taixu Framework: Cross-Scale Phenomenological Validations from Galactic Dynamics to Neural Limit-Cycle Crystallization},
+  author={Ou, Qiao},
+  journal={Zenodo},
+  year={2026},
+  doi={10.5281/zenodo.23984773}
+}
+
+If you need to reference the original galactic anchoring formulation:
 @article{ou2024anchoring,
   title={Anchoring Framework: A Zero-Dark-Matter Explanation for Galaxy Rotation Curves},
   author={Ou, Qiao},
