@@ -44,11 +44,13 @@ For researchers wanting a quick feasibility check on their existing BDF datasets
 ‑ Deliverables: Only three scalar numbers (`SLC‑C`, `Sync`, `Coverage`). No PDF report.
 ‑ Limits: small volume of test files per research group.
 ‑ Expectation: please cite the preprint in any resulting manuscripts or preprints if you use these scalar outputs.
+Specific quota can be inquired via email.
 
 ### Tier 2 — Formal research collaboration (free / negotiated)
 Eligibility: you intend to produce peer‑reviewed work or preprint, and agree to cite the Zenodo preprint. Joint authorship may be discussed depending on contribution scope.
 ‑ Deliverables: scalar metrics + full de‑identified demonstrative PDF reports for your dataset.
 ‑ We may also discuss experimental design for meditation / altered‑state EEG paradigms.
+Detailed terms and quota limits can be inquired via email.
 
 ### Tier 3 — Commercial / large‑batch processing (paid service)
 For companies, hardware vendors or large‑scale proprietary projects without academic publication goals.
